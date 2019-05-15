@@ -70,7 +70,7 @@ Amend the `@angular/core` import statement to include the `Input` symbol.
 <code-example path="toh-pt3/src/app/hero-detail/hero-detail.component.ts" region="import-input" header="src/app/hero-detail/hero-detail.component.ts (import Input)" linenums="false">
 </code-example>
 
-Add a `hero` property, preceded by the `@Input()` decorator.
+Add a `hero` property, preceded by the `@Input()` decorator, to the class body.
 
 <code-example path="toh-pt3/src/app/hero-detail/hero-detail.component.ts" region="input-hero"  linenums="false">
 </code-example>
